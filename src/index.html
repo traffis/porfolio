@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travis Phasoukvong</title>
+    <link rel="stylesheet" href="../styles/output.css" />
+  </head>
+  <body class="mx-auto bg-gray-400 md:w-9/12 lg:w-8/12 xl:w-6/12">
+    <nav class="sticky top-0 h-12 rounded-b-lg bg-gray-700 text-white">
+      <div class="flex h-full items-center justify-around">
+        <a
+          class="sm:mx-16 md:mx-24 w-full text-center hover:animate-pulse hover:font-semibold"
+          href="#about"
+          >About</a
+        >
+        <a
+          class="sm:mx-16 md:mx-24 w-full text-center hover:animate-pulse hover:font-semibold"
+          href="#projects"
+          >Projects</a
+        >
+        <a
+          class="sm:mx-16 md:mx-24 w-full text-center hover:animate-pulse hover:font-semibold"
+          href="#contact"
+          >Contact</a
+        >
+      </div>
+    </nav>
+
+    <div class="mb-8 grid grid-cols-3 rounded-lg bg-gray-200 p-14 shadow-md">
+      <div class="col-span-2 my-auto">
+        <h1 class="text-4xl font-black">Travis Phasoukvong</h1>
+        <h2 class="text-xl font-medium">Software Developer</h2>
+        <p class="py-5 pr-8" id="bio"></p>
+        <a href="../assets/resume.pdf" target="_blank"
+          ><button
+            class="h-10 w-6/12 rounded-md bg-gray-700 font-bold text-white"
+          >
+            Download Resume
+          </button></a
+        >
+      </div>
+      <div class="col-span-1 m-auto">
+        <img class="rounded-full" id="avatar" />
+      </div>
+    </div>
+
+    <div class="my-8 rounded-lg bg-gray-200 px-14 pb-14 shadow-md" id="about">
+      <h1 class="py-7 text-center text-4xl font-black">About Me</h1>
+      <p class="my-2">
+        Hi, I'm Travis! I graduated from Michigan State University with a
+        bachelor's degree in computational mathematics, which is a little bit of
+        computer science or more higher level math theory. I've been interested
+        in technology since a young age, whether it be hardware or software. My
+        interest in software development started when I took programming courses
+        in high school and college. The assignments and projects seemed like
+        putting puzzle pieces together, which is something I enjoy.
+      </p>
+      <p class="my-2">
+        During college, I worked as a student assistant for Michigan State
+        University IT, where I organized tickets for the network engineers and
+        helped them with anything else they needed. An achievement of mine while
+        working there was when I created a script using Python, Selenium, and
+        openpyxl to 2mate a monthly and tedious task. The script
+        cross-referenced tickets from our billing system and an Excel sheet, and
+        improved our manual task time by 50%.
+      </p>
+      <p class="my-2">
+        After graduating, I worked in a contract position as a software quality
+        operations associate for Waymo. If you're not familiar with Waymo, it
+        used to be Google's self-driving car project before the rebrand. In this
+        role, I analyzed and reviewed visual data from self-driving cars and
+        adjusted simulation metrics according to guidelines. I also learned how
+        to use their internal tools, Jira, Google Workspace, and how to work in
+        an agile environment.
+      </p>
+      <p class="my-2">
+        I have perseverance towards my goals. My current goal is to become a
+        software developer, and I've taken alternative educational routes
+        towards this goal. I've been learning more about software development on
+        my own through free online resources such as App Academy Open and C#
+        Academy. Recently, I completed Cognizant's Java Full Stack Developer
+        Certificate, where I learned more about Java, OOP, Spring, Maven, and
+        more.
+      </p>
+      <p class="my-2">
+        In my free time, I like to play video games, hang out with friends, go
+        to the gym, and watch movies and TV shows.
+      </p>
+    </div>
+
+    <div
+      class="my-8 rounded-lg bg-gray-200 px-14 pb-14 shadow-md"
+      id="projects"
+    >
+      <h1 class="py-7 text-center text-4xl font-black">Projects</h1>
+      <div class="flex flex-col">
+        <div class="flex">
+          <img class="h-48 w-auto" src="../assets/img/project1.png" />
+          <div class="ml-5">
+            <h1 class="flex text-xl font-black">
+              Social Media API
+              <a
+                class="my-auto ml-1 h-6 w-6"
+                href="https://github.com/traffis/social-media-api"
+                target="_blank"
+              >
+                <img class="hover:contrast-50" src="../assets/img/github-mark.svg" alt="GitHub Mark"
+                  /></a>
+            </h1>
+            <p class="py-5">
+              A RESTful API using Spring Boot, JPA, and PostgreSQL. As a team of
+              3, we developed a series of endpoints, a database schema, and
+              business logic. Used Postman for testing the endpoints.
+            </p>
+            <ul class="flex flex-wrap gap-x-2 gap-y-3">
+              <li
+                class="rounded-md bg-gray-700 px-4 text-center font-semibold text-white"
+              >
+                Java
+              </li>
+              <li
+                class="rounded-md bg-gray-700 px-4 text-center font-semibold text-white"
+              >
+                Spring Boot
+              </li>
+              <li
+                class="rounded-md bg-gray-700 px-4 text-center font-semibold text-white"
+              >
+                JPA
+              </li>
+              <li
+                class="rounded-md bg-gray-700 px-4 text-center font-semibold text-white"
+              >
+                PostgreSQL
+              </li>
+              <li
+                class="rounded-md bg-gray-700 px-4 text-center font-semibold text-white"
+              >
+                Postman
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <div class="my-8 rounded-lg bg-gray-200 px-14 pb-14 shadow-md" id="contact">
+      <h1 class="py-7 text-center text-4xl font-black">Contact Me</h1>
+      <ul class="mx-auto mb-8 flex max-w-fit gap-x-1">
+        <li class="w-14">
+          <a
+            href="https://www.linkedin.com/in/travis-phasoukvong-16a985201/"
+            target="_blank"
+            ><img class="hover:contrast-50" src="../assets//img/linkedin-mark.svg"
+          /></a>
+        </li>
+        <li class="w-14">
+          <a href="https://github.com/traffis" target="_blank"
+            ><img class="hover:contrast-50" src="../assets/img/github-mark.svg"
+          /></a>
+        </li>
+      </ul>
+      <div>
+        <form class="mx-auto flex w-96 flex-col gap-y-3" action="">
+          <input
+            class="rounded-md px-1 outline outline-1"
+            type="text"
+            placeholder="full name"
+            id="name"
+            name="name"
+          />
+          <input
+            class="rounded-md px-1 outline outline-1"
+            type="text"
+            placeholder="email"
+            id="email"
+            name="email"
+          />
+          <textarea
+            class="min-h-28 rounded-md px-1 outline outline-1"
+            name="message"
+            id="message"
+            placeholder="message..."
+          ></textarea>
+          <button class="rounded-md bg-gray-700 py-1 text-white">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
